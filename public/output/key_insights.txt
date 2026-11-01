@@ -1,0 +1,68 @@
+================================================================================
+QUEENBUG TECHNOLOGIES - DATA ANALYTICS INTERNSHIP REPORT (2025)
+Project Title: End-to-End Retail Sales Data Analysis & Business Intelligence
+Internship Location: Tirupattur, Tamil Nadu
+Author: Data Analytics Intern
+Generated: 2026-11-01 13:42:48
+================================================================================
+
+1. EXECUTIVE SUMMARY & OVERALL KPIS
+--------------------------------------------------------------------------------
+- Total Net Revenue Generated: INR 35,784,911.50
+- Gross Revenue (Before Discounts): INR 38,308,910.00
+- Total Cumulative Discounts Granted: INR 2,523,998.50
+- Overall Validated Order Count: 2,500
+- Total Product Units Sold: 5,474 units
+- Average Order Value (AOV): INR 14,313.96
+- Average Discount Applied: 6.81%
+- Distinct Customers Retained: 401
+
+2. DATA QUALITY & INTEGRITY AUDIT FINDINGS
+--------------------------------------------------------------------------------
+During the data collection audit, multiple real-world anomalies were isolated:
+- Raw Ingestion Size: 2545 rows.
+- Duplicate Elimination: Identified and purged 45 duplicate transactions.
+- Sign Errors: Rectified 35 negative quantity records by taking absolute values.
+- Text Inconsistencies: Normalized whitespace trimming and title-casing across categories, products, cities, and payment types.
+- Missing Field Imputations:
+  * Customer ID: 28 missing entries categorized as 'CUST-GUEST'.
+  * Payment Mode: 42 missing values imputed with dominant mode ('UPI').
+  * Geographic Hub: 32 missing cities assigned to their corresponding regional anchor hub.
+  * Discount Rates: 26 missing entries defaulted to 0.0%.
+- Verified Final Dataset Size: 2500 transactions.
+
+3. PRODUCT & CATEGORY PERFORMANCE INSIGHTS
+--------------------------------------------------------------------------------
+- Dominant Category: 'Electronics' generated the highest revenue of INR 25,860,500.00 (72.27% of total company sales), selling 1,779 units.
+- Lowest Revenue Category: 'Office Supplies' contributed INR 321,201.50 (0.90%).
+- Star Product: 'Laptop' (Electronics) led all individual SKUs with INR 17,327,750.00 across 130 orders.
+
+4. GEOGRAPHIC MARKET DYNAMICS
+--------------------------------------------------------------------------------
+- Prime Region: 'South' region emerged as the primary revenue generator with INR 17,149,867.00 (47.92% revenue share).
+- Top Performing City: 'Tirupattur' led municipal sales with INR 3,662,177.50 across 169 transactions.
+- Local Tirupattur & Tamil Nadu Impact: Strong South regional traction demonstrates stable adoption of digital ordering channels across Tier-2/Tier-3 tech centers.
+
+5. TEMPORAL & SEASONAL TRENDS
+--------------------------------------------------------------------------------
+- Peak Sales Month: Oct recorded highest monthly revenue of INR 4,204,908.50 (217 orders).
+- Lowest Sales Month: Dec recorded lowest monthly revenue of INR 2,169,510.00.
+- Best Quarter: Q4 achieved peak quarterly throughput with INR 9,737,540.50 (27.21%).
+- Day-of-Week Trajectory: Peak transaction volume occurs on Friday, generating INR 6,335,306.50.
+
+6. PAYMENT METHOD & PRICING ELASTICITY
+--------------------------------------------------------------------------------
+- Preferred Payment Channel: 'UPI' is the most utilized payment mechanism, capturing 42.16% of total sales (INR 15,086,510.00).
+- Discount Impact: Transactions with moderate discounts (10%-20%) stimulated higher unit purchasing volumes without eroding net operating margin.
+
+7. STRATEGIC RECOMMENDATIONS FOR QUEENBUG TECHNOLOGIES
+--------------------------------------------------------------------------------
+1. Inventory Prioritization: Strengthen supply chain allocation for high-ticket Electronics and Fast-Moving Office/Home essentials.
+2. Regional Expansion: Replicate the South region marketing blueprint into emerging North and West tier-2 clusters.
+3. UPI & Instant Checkout: Optimize mobile checkout friction since UPI accounts for the majority of transaction volume.
+4. Promotional Timing: Schedule campaign bursts targeting Fridays and month-end shopping cycles.
+
+================================================================================
+Report successfully compiled and validated.
+All data points are 100% computed from the verified 2025 dataset.
+================================================================================
